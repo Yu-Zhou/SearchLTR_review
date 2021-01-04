@@ -19,3 +19,4 @@ Literature review for learning to rank in search engines. This repo is my notes 
 
 ## Industry
 1. [KDD cup 2020 multimodal recall competition - Meituan](https://chowdera.com/2020/11/20201113161610957k.html)
+[中文版](https://mp.weixin.qq.com/s/1DL_n6cBxskmZjtUJDKDPg)
