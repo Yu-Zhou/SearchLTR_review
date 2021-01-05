@@ -16,6 +16,8 @@ Literature review for learning to rank in search engines. This repo is my notes 
 
 > (Core techniques) Adapted Kendall's <img src="https://render.githubusercontent.com/render/math?math=\tau">, which is originally designed for ordinal correlation of two random variables. The formula involve the number of **concordant pairs** and the number of **discordant** (inversions) pairs. Experimentation: show the learning method can really decrease the percent of pairwise preference constraints that are not fulfilled in the test set (by queries); ... present two rankings at the same time... for online. experiment.
 
+2. [Distilling the Knowledge in a Neural Network - Hinton](https://arxiv.org/abs/1503.02531) (:star::star::star::star::star:)
+
 
 ## Industry
 1. [KDD cup 2020 multimodal recall competition - Meituan](https://chowdera.com/2020/11/20201113161610957k.html); 
