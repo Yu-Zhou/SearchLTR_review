@@ -18,5 +18,14 @@ Literature review for learning to rank in search engines. This repo is my notes 
 
 
 ## Industry
-1. [KDD cup 2020 multimodal recall competition - Meituan](https://chowdera.com/2020/11/20201113161610957k.html)
+1. [KDD cup 2020 multimodal recall competition - Meituan](https://chowdera.com/2020/11/20201113161610957k.html); 
 [中文版](https://mp.weixin.qq.com/s/1DL_n6cBxskmZjtUJDKDPg)
+> This is a multimodel search problem in the Ecommerce context. The training data has three key traits: 
+- Only positive data in the training dataset, while test data contains negative q-r pairs.
+- Each image (document) contains multiple objects.
+- The query is not natural language but concatenation of 3-4 words. Based on the last word, we can classify all queries into 2000 categories.
+
+> Thus, the biggest challenge is how to build search index matching between queries and image feautres.
+
+> Negative Sampling - Use some on clicked docs as negative samples.
+> Knowledge Distillation, KD. [https://zhuanlan.zhihu.com/p/93287223](https://zhuanlan.zhihu.com/p/93287223)
