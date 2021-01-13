@@ -16,8 +16,14 @@ Literature review for learning to rank in search engines. This repo is my notes 
 
 > (Core techniques) Adapted Kendall's <img src="https://render.githubusercontent.com/render/math?math=\tau">, which is originally designed for ordinal correlation of two random variables. The formula involve the number of **concordant pairs** and the number of **discordant** (inversions) pairs. Experimentation: show the learning method can really decrease the percent of pairwise preference constraints that are not fulfilled in the test set (by queries); ... present two rankings at the same time... for online. experiment.
 
-2. [Distilling the Knowledge in a Neural Network - Hinton](https://arxiv.org/abs/1503.02531) (:star::star::star::star::star:)
+2. [Distilling the Knowledge in a Neural Network - Hinton 2015](https://arxiv.org/abs/1503.02531) (:star::star::star::star::star:)
+> Deploying cumbersome ensemble model on edge can be hard, the author is thinking about replacing that with a lightweight model, in a post-training "transfer stage".
 
+> The intuition is the probabilitic predictions from the ensemble model provide rich information in gradient. But this information (e.g., a 2's being given probability of 10^-6 of being a 3 and 10^-9 of being a 7) that defines a rich similarity structure over the data has very little influence on cross-entropy loss function during the stransfer stage. The proposed approach, called "distillation", is to raise the temperature :fire: of the final softmax until the cumbersome model produces a suitable soft set of target.
+
+> Experiment is done on speech recognition.
+
+3. [Learning to Rank: From Pairwise Approach to Listwise Approach - Zhe Cao 2007](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2007-40.pdf)
 
 ## Industry
 1. [KDD cup 2020 multimodal recall competition - Meituan](https://chowdera.com/2020/11/20201113161610957k.html); 
